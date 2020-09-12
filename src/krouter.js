@@ -1,6 +1,6 @@
 import Vue from 'vue'
-import About from './components/about'
-import View from './components/view'
+import About from './components/view/about'
+import View from './components/view/view'
 import VueRouter from './kvue-router'
 
 

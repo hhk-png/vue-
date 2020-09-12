@@ -97,7 +97,19 @@ vue-advanced
 
 
 
+#### Vuex数据管理
 
+vuex是一个专为Vue.js应用开发的状态管理模式，集中式存储管理应用所有组件的状态。
+
+Vuex遵循“单向数据流”理念，易于问题追踪以及提高代码可维护性。
+
+Vuex中多个视图依赖于同一状态时，视图间传参和状态同步比较困难，Vuex能够很好解决该问题。
+
+##### 事件：
+
+处理简单的逻辑，可以直接commit到mutation，
+
+处理复杂的逻辑，也可以dispatch到actions再commit到mutation，
 
 
 

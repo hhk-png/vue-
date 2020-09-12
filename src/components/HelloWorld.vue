@@ -1,11 +1,11 @@
 <template>
   <div>
-    <FormTest></FormTest>
+    <!-- <FormTest></FormTest> -->
   </div>
 </template>
 
 <script>
-import FormTest from '../components/form/index'
+// import FormTest from '../components/form/index'
 
 export default {
   name: 'HelloWorld',
@@ -15,7 +15,7 @@ export default {
     }
   },
   components: {
-    FormTest
+    // FormTest
   },
 
 }
