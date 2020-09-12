@@ -22,11 +22,11 @@ export default {
   },
   methods: {
     validate(cb) {
-      console.log(this.$children.filter(item => item.prop))
+      // 
       const tasks = this.$children
-        .filter(item => item.prop)
+        .filter(item => item.prop) // 过滤掉没有prop参数的FormItem
         .map(item => item.validate());
-      console.log(tasks)
+      // 当全部验证成功后才会回调
       Promise.all(tasks)
         .then(() => cb(true))
         .catch(() => cb(false));
